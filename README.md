@@ -1,6 +1,6 @@
 # Background
 This repo contains links to University of Michigan EECS 498.008/598.008 Deep Learning for 
-Computer Vision course assignments completed by Elliot.
+Computer Vision course assignments completed by Elliot using Google Colab, Jupyter Notebook, Python, and PyTorch.
 
 UMich EECS 498.008/598.008 builds upon the Stanford University CS231n Deep Learning for Computer Vision course,
 with additional topics on emerging Computer Vision research developments. 
@@ -24,34 +24,55 @@ neural network architectures, and practical engineering tricks for training and 
 6. [Assignment 6: Variational Autoencoder; Generative Adversairal Networks, Network Visualization, Style Transfer](#assignment-6-variational-autoencoder-generative-adversairal-networks-network-visualization-style-transfer)
 
 # Assignment 1: PyTorch 101; kNearest Neighbor Classifier 
-Status: Completed  
-Derived these classes and functions:  
-Key skills developed:  
+Status: Completed  Jan 2024  
+[Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-1)  
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used: TODO
 
 # Assignment 2: Linear Classifiers; Two-Layer Neural Network; MNIST Challenge 
-Status: Completed  
-Derived these classes and functions:  
-Key skills developed:  
+Status: Completed  Jan 2024  
+[Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-2)  
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used:   
+	- Devise Computational Graphs to create Backpropagation calculations for addition, multiplication, element selection for Linear layers  
+	- Naive Implementations using Loops to understand element-by-element calculation  
+	- Vectorized Implementations to harness the speed-up of vectorized operations  
 
 # Assignment 3: Fully-Connected Neural Network; Convolutional Neural Network 
-Status: Completed  
-Derived these classes and functions:  
-Key skills developed:  
+Status: Completed March 2024  
+[Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-3)  
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used:   
+	- Devise Computational Graphs to create Backpropagation for Convolution, MaxPool, Batch Normalization for Matrix and for Tensor inputs.  
+	- Implement KaiMing and Xavier weight initiatlizations for Fully Connected linear weights and Convolutional Filters  
 
 # Assignment 4: Object Detection 
 Status: Not Started  
-Derived these classes and functions:  
-Key skills developed:  
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used:  TODO  
 
 # Assignment 5: Image Captioning with Recurrent Neural Networks; Transformers 
-Status: Not Started  
-Derived these classes and functions:  
-Key skills developed:  
+Status: Not Started   
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used:  TODO  
+  
 
 # Assignment 6: Variational Autoencoder; Generative Adversairal Networks, Network Visualization, Style Transfer 
 Status: Not Started  
-Derived these classes and functions:  
-Key skills developed:  
+
+Implementation of these classes and functions:  TODO  
+
+Key concepts and skills used:  TODO  
 
 
 
