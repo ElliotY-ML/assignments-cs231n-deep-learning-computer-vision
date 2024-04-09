@@ -17,7 +17,7 @@ neural network architectures, and practical engineering tricks for training and 
 
 # Table of Contents
 1. [Assignment 1: PyTorch 101; k-Nearest Neighbor Classifier](#assignment-1-pytorch-101-knearest-neighbor-classifier)
-2. [Assignment 2: Linear Classifiers; Two-Layer Neural Network; MNIST Challenge](#assignment-2-linear-classifiers-two-layer-neural-network-mnist-challenge)
+2. [Assignment 2: Linear Classifiers; Two-Layer Neural Network](#assignment-2-linear-classifiers-two-layer-neural-network)
 3. [Assignment 3: Fully-Connected Neural Network; Convolutional Neural Network](#assignment-3-fully-connected-neural-network-convolutional-neural-network)
 4. [Assignment 4: Object Detection](#assignment-4-object-detection)
 5. [Assignment 5: Image Captioning with Recurrent Neural Networks; Transformers](#assignment-5-image-captioning-with-recurrent-neural-networks-transformers)
@@ -27,30 +27,58 @@ neural network architectures, and practical engineering tricks for training and 
 Status: Completed  Jan 2024  
 [Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-1)  
 
-Implementation of these classes and functions:  TODO  
+Implementation of these classes and functions:  
+* KnnClassifier for image data with dimensions (num_images, channels, height, width)
+* k-folds cross validation 
+* compute_distances using nested loops, single loop, and vectorized implementation
 
-Key concepts and skills used: TODO
+Key concepts and skills used:  
+* PyTorch tensors manipulation
+* Euclidean distance calculations
 
-# Assignment 2: Linear Classifiers; Two-Layer Neural Network; MNIST Challenge 
+Trained K-Nearest Neighbor classifier for CIFAR-10 image dataset achieved test set accuracy: 33.86%
+
+# Assignment 2: Linear Classifiers; Two-Layer Neural Network  
 Status: Completed  Jan 2024  
 [Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-2)  
 
-Implementation of these classes and functions:  TODO  
+Implementation of these classes and functions:
+* LinearClassifier for flattened image data in tensors (num_data, flattened_dimensions)
+* SVM Loss function and Softmax (Cross Entropy) Loss function forward and backward pass
+* TwoLayerNet fully connected neural network for flattened image data   
+* nn_forward_pass, nn_forward_backward 
+* nn_train using Stochastic Gradient Descent (SGD)
+* Hyperparameters search using grid search
 
 Key concepts and skills used:   
-	- Devise Computational Graphs to create Backpropagation calculations for addition, multiplication, element selection for Linear layers  
-	- Naive Implementations using Loops to understand element-by-element calculation  
-	- Vectorized Implementations to harness the speed-up of vectorized operations  
+* Devise Computational Graphs to create Forward Pass and Backward Backpropagation calculations for addition, multiplication, element selection operations
+* Naive Implementations using Loops to understand element-by-element calculations 
+* Vectorized Implementations to harness the speed-up of vectorized operations  
+* L2 Weight Regularization  
+
+Trained TwoLayerNet model for CIFAR-10 image dataset achieved test set accuracy: 53.79%
 
 # Assignment 3: Fully-Connected Neural Network; Convolutional Neural Network 
 Status: Completed March 2024  
 [Link to GitHub Repo (Please request access to this private Repo)](https://github.com/ElliotY-ML/cs231n-assignment-3)  
 
-Implementation of these classes and functions:  TODO  
+Implementation of these classes and functions:  
+* Linear Fully Connected; ReLU; Linear_ReLU; DropOut layers for image data in tensors
+* TwoLayerNet; FullyConnectedNet with arbitrary number of hidden layers 
+* SGD; SGD w/ momentum; RMSProp; Adam weight updates
+* Conv; MaxPool; BatchNorm; SpatialBatchNorm layers for image data with dimensions (num_images, channels, height, width)
+* ThreeLayerConvNet; DeepConvNet with arbitrary number of convolutional layers
+* Kaiming weights initialization
+ 
 
 Key concepts and skills used:   
-	- Devise Computational Graphs to create Backpropagation for Convolution, MaxPool, Batch Normalization for Matrix and for Tensor inputs.  
-	- Implement KaiMing and Xavier weight initiatlizations for Fully Connected linear weights and Convolutional Filters  
+* Define Autograd-like functions with forward and backward calculations
+* Use Modules approach to create Fully Connected Networks and Convolutional Neural Networks with arbitrary number of layers (depth)
+* Devise Computational Graphs to create Forward Pass and Backward Backpropagation calculations for Linear, ReLU, DropOut, Convolution, MaxPool, Batch Normalization layers  
+* Implement KaiMing and Xavier weight initiatlizations for Fully Connected linear weights and Convolutional Filters  
+* Trainable Weights update rules  
+
+Trained DeepConvNet (10 Conv + 1 FC layer) model for CIFAR-10 image dataset achieved test set accuracy: 71.66%
 
 # Assignment 4: Object Detection 
 Status: Not Started  
