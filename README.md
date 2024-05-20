@@ -2,8 +2,8 @@
 This repo contains links to University of Michigan EECS 498.008/598.008 Deep Learning for 
 Computer Vision course assignments completed by Elliot using Google Colab, Jupyter Notebook, Python, and PyTorch.
 
-UMich EECS 498.008/598.008 builds upon the Stanford University CS231n Deep Learning for Computer Vision course,
-with additional topics on emerging Computer Vision research developments. 
+UMich EECS 498.008/598.008 references and builds upon the Stanford University CS231n Deep Learning for 
+Computer Vision course, with additional topics on emerging Computer Vision research developments. 
 
 From the UMich course description:  
 "This course is a deep dive into details of neural-network based deep learning methods for computer vision. 
